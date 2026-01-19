@@ -25,27 +25,28 @@ const SkillCard = ({ title, icon: Icon, skills }) => (
 
 const Skills = () => {
     const skillCategories = [
-        {
-            title: "Frontend Development",
-            icon: Code,
-            skills: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Responsive Design"]
-        },
-        {
-            title: "Backend & DevOps",
-            icon: Server,
-            skills: ["Node.js", "Express.js", "MongoDB", "Linux", "Docker", "CI/CD"]
-        },
-        {
-            title: "Languages",
-            icon: Terminal,
-            skills: ["Java", "Python", "JavaScript", "TypeScript (Learning)"]
-        },
-        {
-            title: "Tools & Others",
-            icon: Wrench,
-            skills: ["VS Code", "Git", "GitHub", "Figma", "Postman"]
-        }
-    ];
+    {
+        title: "Frontend Development",
+        icon: Code,
+        skills: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Responsive Design"]
+    },
+    {
+        title: "Backend Development",
+        icon: Server,
+        skills: ["Node.js", "Express.js", "REST APIs", "Spring Boot (learning)", "MongoDB", "MySQL"]
+    },
+    {
+        title: "Programming Languages",
+        icon: Terminal,
+        skills: ["Java", "Python", "JavaScript"]
+    },
+    {
+        title: "Tools & Core Skills",
+        icon: Wrench,
+        skills: ["Git", "GitHub", "Linux (Basics)", "Postman", "VS Code"]
+    }
+];
+
 
     return (
         <Section id="skills">

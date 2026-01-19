@@ -37,35 +37,36 @@ const TimelineItem = ({ year, title, subtitle, description, icon: Icon, isLast }
 
 const Timeline = () => {
     const milestones = [
-        {
-            year: "2026 (Goal)",
-            title: "Google Summer of Code",
-            subtitle: "Open Source Contributor",
-            description: "Preparing to contribute to top-tier open source organizations in the web development domain.",
-            icon: Code
-        },
-        {
-            year: "2025 - Present",
-            title: "Web Development Journey",
-            subtitle: "Self-Learning & Projects",
-            description: "Started building real-world projects, mastering React, Node.js, and modern DevOps tools.",
-            icon: Briefcase
-        },
-        {
-            year: "2025 - 2029",
-            title: "B.Tech CSE (DevOps)",
-            subtitle: "Bennett University",
-            description: "Pursuing Computer Science Engineering with a specialization in DevOps. Learning core CS concepts.",
-            icon: GraduationCap
-        },
-        {
-            year: "2024",
-            title: "Higher Secondary (Class 12)",
-            subtitle: "CBSE Board",
-            description: "Completed Class 12 with PCM + Computer Science. Built my first Python project.",
-            icon: GraduationCap
-        }
-    ];
+    {
+        year: "2026 (Goal)",
+        title: "Backend & DevOps Growth",
+        subtitle: "Spring Boot, System Design & DevOps Foundations",
+        description: "Strengthening backend development with Java and Spring Boot, and beginning DevOps fundamentals like Docker and CI/CD.",
+        icon: Code
+    },
+    {
+        year: "2025 - Present",
+        title: "Full Stack Development Journey",
+        subtitle: "Projects & Self-Learning",
+        description: "Building real-world systems using Node.js and Java backend, focusing on clean architecture and scalable applications.",
+        icon: Briefcase
+    },
+    {
+        year: "2025 - 2029",
+        title: "B.Tech in CSE (DevOps)",
+        subtitle: "Bennett University",
+        description: "Pursuing Computer Science Engineering with focus on core CS, backend development, and DevOps fundamentals.",
+        icon: GraduationCap
+    },
+    {
+        year: "2024",
+        title: "Higher Secondary (Class 12)",
+        subtitle: "CBSE Board",
+        description: "Completed Class 12 with PCM + Computer Science and built foundational programming projects.",
+        icon: GraduationCap
+    }
+];
+
 
     return (
         <Section id="journey">

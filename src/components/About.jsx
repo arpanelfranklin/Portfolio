@@ -37,37 +37,39 @@ const About = () => {
 
                 {/* Bio Content */}
                 <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">About Me</h2>
-                    <p className="text-slate-400 text-lg mb-6 leading-relaxed">
-                        I'm a B.Tech CSE student specializing in DevOps at Bennett University (2025–2029).
-                        My journey in technology is driven by a passion for building scalable web applications
-                        and automating development workflows.
-                    </p>
-                    <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-                        Currently, I'm focused on mastering Full-Stack Development and exploring the depths of DevOps.
-                        I'm also preparing for Google Summer of Code (GSoC) 2026, aiming to contribute to open-source
-                        projects in the web development space.
-                    </p>
+    <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">About Me</h2>
+    
+    <p className="text-slate-400 text-lg mb-6 leading-relaxed">
+        I'm a B.Tech CSE student at Bennett University (2025–2029) with a strong interest in backend and full-stack development.
+        I enjoy building real-world applications and understanding how systems work behind the scenes.
+    </p>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="p-4 bg-slate-800/50 rounded-lg border border-slate-700">
-                            <div className="flex items-center gap-3 mb-2">
-                                <GraduationCap className="text-purple-400" />
-                                <h3 className="font-semibold text-white">Education</h3>
-                            </div>
-                            <p className="text-sm text-slate-400">B.Tech CSE (DevOps)</p>
-                            <p className="text-xs text-slate-500">Bennett University</p>
-                        </div>
-                        <div className="p-4 bg-slate-800/50 rounded-lg border border-slate-700">
-                            <div className="flex items-center gap-3 mb-2">
-                                <Calendar className="text-purple-400" />
-                                <h3 className="font-semibold text-white">Goals</h3>
-                            </div>
-                            <p className="text-sm text-slate-400">GSoC 2026 Aspirant</p>
-                            <p className="text-xs text-slate-500">Open Source Contributor</p>
-                        </div>
-                    </div>
-                </div>
+    <p className="text-slate-400 text-lg mb-8 leading-relaxed">
+        Currently, I'm focusing on Java and Spring Boot for backend development, along with modern web technologies.
+        My goal is to grow into a reliable software engineer who can design and build scalable systems.
+    </p>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="p-4 bg-slate-800/50 rounded-lg border border-slate-700">
+            <div className="flex items-center gap-3 mb-2">
+                <GraduationCap className="text-purple-400" />
+                <h3 className="font-semibold text-white">Education</h3>
+            </div>
+            <p className="text-sm text-slate-400">B.Tech CSE (DevOps)</p>
+            <p className="text-xs text-slate-500">Bennett University • CGPA: 9.00</p>
+        </div>
+
+        <div className="p-4 bg-slate-800/50 rounded-lg border border-slate-700">
+            <div className="flex items-center gap-3 mb-2">
+                <Calendar className="text-purple-400" />
+                <h3 className="font-semibold text-white">Current Focus</h3>
+            </div>
+            <p className="text-sm text-slate-400">Backend & Full Stack Development</p>
+            <p className="text-xs text-slate-500">Java • Spring Boot • Web Systems</p>
+        </div>
+    </div>
+</div>
+
             </div>
         </Section>
     );

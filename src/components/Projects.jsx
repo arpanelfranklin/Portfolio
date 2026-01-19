@@ -41,35 +41,37 @@ const ProjectCard = ({ title, description, tech, github, live }) => (
 
 const Projects = () => {
     const projects = [
-        {
-            title: "Instagram Login UI Clone",
-            description: "A pixel-perfect clone of the Instagram login page featuring a fully responsive layout and modern CSS styling techniques.",
-            tech: ["HTML", "CSS", "Responsive Design"],
-            github: "#",
-            live: "#"
-        },
-        {
-            title: "Amazon Homepage UI Clone",
-            description: "Recreation of the Amazon homepage layout focusing on complex grid systems, responsive sections, and navigation structures.",
-            tech: ["HTML", "CSS", "Grid Layout"],
-            github: "#",
-            live: "#"
-        },
-        {
-            title: "Restaurant Management System",
-            description: "A comprehensive console-based system to manage restaurant operations including menu management, order processing, and billing.",
-            tech: ["Python", "MySQL", "File Handling"],
-            github: "#",
-            live: null
-        },
-        {
-            title: "FunWithCS",
-            description: "Concept landing page for a YouTube channel dedicated to making Computer Science education fun and accessible for school students.",
-            tech: ["HTML", "CSS", "JavaScript"],
-            github: "#",
-            live: "#"
-        }
-    ];
+    {
+        title: "STUDIA – Academic Management Platform",
+        description: "A full-stack academic management system with student and faculty portals, timetable scheduling, QR-based attendance, and leave management, built during SIH internal hackathon.",
+        tech: ["Node.js", "Express", "MySQL", "EJS", "Sessions"],
+        github: "https://github.com/arpanelfranklin/STUDIA",
+        live: null
+    },
+    {
+        title: "Campus 2 Corporate (C2C)",
+        description: "Official website for a university club showcasing events, activities, and announcements with a clean, responsive UI.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        github: "https://github.com/arpanelfranklin/C2C",
+        live: null
+    },
+    {
+        title: "Clinic Management System (Ongoing)",
+        description: "Developing a full-stack clinic management system to handle patient records, doctor visits, and appointments using Java and Spring Boot.",
+        tech: ["Java", "Spring Boot", "MongoDB", "REST API"],
+        github: "#",
+        live: null
+    },
+    {
+        title: "Amazon Homepage UI Clone",
+        description: "A frontend recreation of the Amazon homepage focusing on layout structure and UI styling.",
+        tech: ["HTML", "CSS", "Responsive Design"],
+        github: "#",
+        live: "#"
+    }
+];
+
+
 
     return (
         <Section id="projects" className="bg-slate-900/30">
